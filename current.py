@@ -2,7 +2,6 @@ import pygame
 from pygame.locals import *
 import sys, math, random
 
-
 class Ball:
 
     def __init__(self, startx):
@@ -354,13 +353,7 @@ while True:
                 hitboxon = False
                 counting = True
                 countdownhit = 50
-            # if ballc == blue:
-            #    ballc = white
-            # else:
-            #    ballc == blue
 
-    # countdownhit is the number of ticks before giving a score on hit. (to stop clipping on the side pf the hitbox)
-    # countingbcdh
     if countdownhit < 1:
         hitboxon = True
         counting = False
